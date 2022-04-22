@@ -110,7 +110,7 @@ This final model predicts vaccination status with 78.4% accuracy.
 
 The ROCAUC curve is a performance metric used for classification problems at varying thresholds. The AUC, or area under the curve, represents the measure of separability. In other words, it describes how well the model does at distinguishing between the two classes of the target. The higher the AUC, the better the model is at predicting true positives and true negatives. As it applies to this business understanding, the higher the AUC, the better the model is at predicting whether individuals got the vaccine or not.
 
-![img](./Images/aucroc.png)
+![img](./Images/roc_auc.png)
 
 86% of the people that are predicted to be vaccinated were in fact vaccinated. This is the true positive. 86% success rate for positive predictions.
 
