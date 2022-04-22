@@ -33,10 +33,6 @@ The target population for the NHFS was all persons 6 months or older living in t
 
 (see nhfspuf_readme.txt)
 
-The NHFS was conducted between October 2009 and June 2010. It was one-time survey designed specifically to monitor vaccination during the 2009-2010 flu season in response to the 2009 H1N1 pandemic. The CDC has other ongoing programs for annual phone surveys that continue to monitor seasonal flu vaccination.
-
-This data is being used strictly for statistical reporting and analysis only.
-
 
 # Modeling
 
