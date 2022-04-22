@@ -1,4 +1,4 @@
-![img](./images/vaccine.png)
+![img](./Images/vaccine.png)
 
 # Flu-Shot-Classifier
 Predicting likelihood of individuals receiving seasonal flu vaccines 
@@ -109,12 +109,12 @@ More importantly, the model performs similarly on train and test data, so it is 
 
 This final model predicts vaccination status with 78.4% accuracy.
 
-![img](./images/model_bar.png)
+![img](./Images/model_bar.png)
 
 
 The ROCAUC curve is a performance metric used for classification problems at varying thresholds. The AUC, or area under the curve, represents the measure of separability. In other words, it describes how well the model does at distinguishing between the two classes of the target. The higher the AUC, the better the model is at predicting true positives and true negatives. As it applies to this business understanding, the higher the AUC, the better the model is at predicting whether individuals got the vaccine or not.
 
-![img](./images/aucroc.png)
+![img](./Images/aucroc.png)
 
 86% of the people that are predicted to be vaccinated were in fact vaccinated. This is the true positive. 86% success rate for positive predictions.
 
@@ -122,13 +122,13 @@ The ROCAUC curve is a performance metric used for classification problems at var
 
 ### Target Distributions of Most Important Features and Coefficients
 
-![img](./images/rates_bar12.png)
+![img](./Images/rates_bar12.png)
 
-![img](./images/rates_bar11.png)
+![img](./Images/rates_bar11.png)
 
-![img](./images/rates_bar14.png)
+![img](./Images/rates_bar14.png)
 
-![img](./images/rates_bar7.png)
+![img](./Images/rates_bar7.png)
 
 
 As evident, there are 3 features/coefficients that are ranked highest for all 3 columns. They are opinion_seas_risk, opinion_seas_vacc_effective, and doctor_recc_seasonal. Additionally, x0_65+ Years appears in two of the three sorted dataframes, so I will include this as well.
