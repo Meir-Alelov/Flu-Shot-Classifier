@@ -5,6 +5,17 @@ Predicting likelihood of individuals receiving seasonal flu vaccines
 
 Author: Meir Alelov
 
+# A Frightening Exploration of Data Ethics
+
+The purpose of this blog post is to shed light on the potentially detrimental misuse of power that comes with being a data scientist. It's very Spiderman-y when it comes to responsibility and what not. As data scientists, we have spent hours on end, burned innumerable electrons honing in and fine tuning a skill which, honestly, feels like a super power that we can use to sway decisions. Big decisions. People in lofty roles oftentimes lack the technical skills necessary to build, say, a convolutional neural network model. Instead, they enlist data scientists to provide them with the necessary information needed to make important decisions through a scientific lens. 
+
+A data scientist can uncover hidden solutions for real life problems, which, unfortunately, in our capitalistic society, tend to gravitate toward business problems specifically. We are able to dive deep into the underbelly of data and uncover hidden treasures manifested both as cognizance and actionable insights for a broad range of domains. Such an incredible lens is not available to the masses. It's an expensive luxury that few can afford. 
+As you read this, please keep in mind that it is for illustrative purposes only. My views absolutely do not align with the project I am pretending to undertake for an employer I would never work for. I am doing this to show that, in fact, this can be done, and does happen.
+
+We are now playing make-believe. I will show how I've taken on a role as a data scientist for a prominent anti-vaxxer, who has hired me to provide him with actionable insight into lowering vaccination rates. Yikes. The following is a README which would be attached to the technical notebook.
+
+Ok, here we go.
+
 # Overview
 Not only has there been significant debate surrounding vaccines, but, in the past few years, the debate seems to have heated up tremendously in a post-Covid world. Vaccination status has been a hot topic in American discourse. As such, many have taken their own stand on vaccines and misinformation spread is significantly high surrounding this topic.
 
@@ -137,10 +148,10 @@ For random forest, we can measure how each feature decrease the impurity of the 
 In gradient boost, feature importance is a score which indicates how useful each feature was in creation of the boosted decision trees within the model. The more a specific feature was used to make important decisions with decision trees within the boost model, the higher that feature's relative importance is.
 
 ## Recommendations
-- Targetting individuals 65 years and older to try and reduce their vaccination rates.
+- Targeting individuals 65 years and older to try and reduce their vaccination rates.
 - Addressing opinions of the masses about the risk of getting infected without a vaccine.
 - Addressing opinions of the masses about the effectiveness of the vaccine.
-- Targetting doctors to offer incentives for withholding vaccination recommendation.
+- Targeting doctors to offer incentives for withholding vaccination recommendation.
 
 # Conclusion
 The factors which mostly affected whether someone is classified as vaccinated or not are individuals 65 years and older, opinion about risk of getting infected without a vaccine, opinion about the effectiveness of the vaccine, and a doctor's recommendation on receiving the vaccine. These features, or responses in the survey, had the highest weight in determining the class an individual belongs to. Therefore, we should focus on these features specifically.
@@ -149,3 +160,8 @@ Based on the top features and coefficients, we now know which factors most stron
 
 You have hired me to provide you with the necessary tools to reduce vaccination rates, thus allowing you to further influence the masses so that you may be an even more influential figure in this ongoing debate. You will be able to leverage your proven track record. By wielding such power, people will pay you to represent their views and provide funding. An increased credibility and recognition of your actions will also result in more book sales.
 
+## Phewf. 
+
+Ok, enough pretend time. One can only keep a straight "blog face" for so long. Wasn't that cringey? I literally shuttered as I wrote out my recommendations. The fact that there are actually people out there who use their data science powers to supplement questionable decisions is horrifying. The scariest part about this, in my opinion, is that my analysis and interpretation of the data is unbiased until the recommendations section. I simply determined which coefficients most strongly affect vaccination rates. Those working for the dark side use the same techniques and gain the same insights from the data. It is how they frame these insights, however, which determines their use, and whether they prey on elderly citizens or not. 
+
+Not unlike a defense attorney representing a repeat offender, such are the data scientists who sell out and misuse their powers to aid individuals who do not have humanity's best interest in mind. They have decided that money trumps ethical responsibility. It is up to us to hold each other to high moral standards when wading through the waters of data. There are people out there who will pay significant sums to enlist our super powers. We must choose a path which aligns with the betterment of humanity, as opposed to its exploitation.
