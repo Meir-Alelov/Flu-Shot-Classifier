@@ -21,9 +21,9 @@ My goal is to provide actionable recommendations which could be deployed as tact
 
 
 # Data Understanding
-The data for this competition comes from the National 2009 H1N1 Flu Survey (NHFS).
+The data comes from the National 2009 H1N1 Flu Survey (NHFS).
 
-Between 2009 and 2010, the United States conducted the National 2009 H1N1 Flu Survery. This was a phone survey which asked individuals about their seasonal flu vaccination status, as well as additional questions regarding the individuals. These supplementary questions ranged from social and economic background, to demographics, to opinions on risks of illness and vaccine effectiveness, and even behaviors to mitigate transmission. Understanding the relationship between these characteristics and vaccination status can shed light on actionable steps to make a difference, and impact the distribution of vaccinated vs. unvaccinated individuals.
+Between 2009 and 2010, the United States conducted the National 2009 H1N1 Flu Survey. This was a phone survey which asked individuals about their seasonal flu vaccination status, as well as additional questions regarding the individuals. These supplementary questions ranged from social and economic background, demographics, to opinions on risks of illness and vaccine effectiveness, and even behaviors to mitigate transmission. Understanding the relationship between these characteristics and vaccination status can shed light on actionable steps to make a difference, and impact the distribution of vaccinated vs. unvaccinated individuals.
 
 As they referenced:
 
