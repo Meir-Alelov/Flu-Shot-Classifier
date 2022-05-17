@@ -31,7 +31,6 @@ The National 2009 H1N1 Flu Survey (NHFS) was sponsored by the National Center fo
 
 The target population for the NHFS was all persons 6 months or older living in the United States at the time of the interview. Data from the NHFS were used to produce timely estimates of vaccination coverage rates for both the monovalent pH1N1 and trivalent seasonal influenza vaccines.
 
-(see nhfspuf_readme.txt)
 
 
 # Modeling
